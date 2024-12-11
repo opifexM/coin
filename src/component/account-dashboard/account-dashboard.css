@@ -1,0 +1,58 @@
+.dashboard-component {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+  padding: 20px;
+}
+
+.dashboard-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.dashboard-sort-label {
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.dashboard-sort-select {
+  padding: 8px 12px;
+  font-size: 14px;
+  border: 1px solid #116ACC;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+  transition: border-color 0.3s ease;
+}
+
+.dashboard-sort-select:focus {
+  border-color: #0d5aad;
+  box-shadow: 0 0 4px rgba(17, 106, 204, 0.5);
+}
+
+.dashboard-create-button {
+  margin-left: auto;
+  background-color: #116ACC;
+  color: #ffffff;
+  border: none;
+  padding: 16px 20px 16px 58px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  transition: background-color 0.3s ease;
+  background-image: url('./image/plus.svg');
+  background-size: 24px;
+  background-repeat: no-repeat;
+  background-position: left 16px center;
+}
+
+.dashboard-create-button:hover {
+  background-color: #0d5aad;
+}
+
+.dashboard-create-button:active {
+  background-color: #094a8c;
+}

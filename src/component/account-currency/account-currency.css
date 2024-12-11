@@ -1,0 +1,55 @@
+.account-currency-component {
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.account-currency-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #000000;
+  text-align: left;
+}
+
+.account-currency-list {
+  max-width: 40em;
+  padding: 0;
+  overflow-x: hidden;
+  list-style: none;
+}
+
+.account-currency-item {
+  padding: 10px 0;
+  font-size: 16px;
+  color: #000000;
+}
+
+.account-currency-item:before {
+  float: left;
+  width: 0;
+  white-space: nowrap;
+  content:
+    ". . . . . . . . . . . . . . . . . . . ."
+    ". . . . . . . . . . . . . . . . . . . ."
+    ". . . . . . . . . . . . . . . . . . . ."
+    ". . . . . . . . . . . . . . . . . . . .";
+  color: #cccccc;
+  font-size: 14px;
+}
+
+.account-currency-item-code {
+  background-color: #ffffff;
+  padding-right: 0.5em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.account-currency-item-amount {
+  float: right;
+  background-color: #ffffff;
+  padding-left: 0.5em;
+}

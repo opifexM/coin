@@ -1,0 +1,86 @@
+.account-history-table-component {
+  background-color: #f5f7fa;
+  padding: 20px 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.account-history-table-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.account-history-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 8px;
+}
+
+.account-history-table thead {
+  background-color: #116ACC;
+  color: #ffffff;
+  border-radius: 10px;
+}
+
+.account-history-table thead th {
+  padding: 12px 15px;
+  text-align: left;
+  font-size: 20px;
+  white-space: nowrap;
+}
+
+.account-history-table tr td {
+  padding: 12px 15px;
+  font-size: 14px;
+  color: #333333;
+  border-bottom: 2px solid rgba(0, 82, 255, 0.1);
+}
+
+.account-history-table .account-history-amount-positive {
+  color: #28a745;
+  font-weight: bold;
+}
+
+.account-history-table .account-history-amount-negative {
+  color: #dc3545;
+  font-weight: bold;
+}
+
+.account-history-table-navigation {
+  display: flex;
+  justify-content: space-between;
+}
+
+.account-history-table-preview, .account-history-table-next {
+  background-color: #116ACC;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: background-color 0.3s ease;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.account-history-table-preview:disabled,
+.account-history-table-next:disabled {
+  cursor: not-allowed;
+  background-color: #e3eaf5;
+  color: #7a9cc6;
+}
+
+.account-history-table-preview {
+  background-image: url('./image/arrow.svg');
+}
+
+.account-history-table-next {
+  background-image: url('./image/arrow.svg');
+  transform: scaleX(-1);
+}

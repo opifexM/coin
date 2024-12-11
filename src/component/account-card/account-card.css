@@ -1,0 +1,68 @@
+.account-card-component {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.account-card-number {
+  grid-row: 1 / 1;
+  grid-column: 1 / -1;
+  font-size: 16px;
+  font-weight: bold;
+  color: #333333;
+  margin: 0;
+}
+
+.account-card-balance {
+  grid-row: 2 / 2;
+  grid-column: 1 / -1;
+  font-size: 14px;
+  color: #182233;
+  margin: 0;
+}
+
+.account-card-transaction-title {
+  grid-column: 1 / 1;
+  grid-row: 3 / 3;
+  font-size: 14px;
+  font-weight: bold;
+  color: #333333;
+  margin: 0;
+}
+
+.account-card-transaction {
+  grid-row: 4 / 4;
+  grid-column: 1 / 1;
+  font-size: 14px;
+  color: #666666;
+  margin: 0;
+}
+
+.account-card-button:hover {
+  background-color: #0d5aad;
+}
+
+.account-card-button:active {
+  background-color: #094a8c;
+}
+
+.account-card-open-button {
+  grid-column: 2 / -1;
+  grid-row: 3 / 5;
+  margin-left: auto;
+  background-color: #116ACC;
+  color: #ffffff;
+  border: none;
+  padding: 16px 20px 16px 20px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  transition: background-color 0.3s ease;
+}

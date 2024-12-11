@@ -1,0 +1,65 @@
+.currency-monitoring-component {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #dddcdc;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.currency-monitoring-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #000000;
+  text-align: left;
+}
+
+.currency-monitoring-list {
+  max-width: 40em;
+  padding: 0;
+  overflow-x: hidden;
+  list-style: none;
+}
+
+.currency-monitoring-item {
+  padding: 10px 0;
+  font-size: 16px;
+  color: #000000;
+}
+
+.currency-monitoring-item:before {
+  float: left;
+  width: 0;
+  white-space: nowrap;
+  content:
+    ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .";
+  font-size: 14px;
+}
+
+.currency-monitoring-item-code {
+  background-color: #dddcdc;
+  padding-right: 0.5em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.currency-monitoring-item-amount {
+  float: right;
+  background-color: #dddcdc;
+  padding-left: 0.5em;
+}
+
+.currency-monitoring-item.is-negative .currency-monitoring-item-amount {
+  color: #be0c0c;
+}
+
+.currency-monitoring-item.is-positive .currency-monitoring-item-amount {
+  color: #5faf42;
+}
+
+.currency-monitoring-component .currency-monitoring-item-change {
+  width: 16px;
+  height: 16px;
+}

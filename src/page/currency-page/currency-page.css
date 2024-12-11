@@ -1,0 +1,12 @@
+.currency-page-action {
+  padding: 0 20px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 20px;
+}
+
+.currency-page-exchange {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}

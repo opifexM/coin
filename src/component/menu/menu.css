@@ -1,0 +1,54 @@
+.menu-component {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30px;
+  color: white;
+  height: 70px;
+  background-color: #116ACC;
+}
+
+.menu-component h1 {
+  font-size: 26px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.menu-option {
+  display: flex;
+  gap: 15px;
+}
+
+.menu-option button {
+  background-color: white;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #116ACC;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.menu-option button.active {
+  background-color: #91c2ff;
+  color: #0056b3;
+}
+
+.menu-option button:hover {
+  background-color: #d8e9ff;
+}
+
+.menu-option button:active {
+  background-color: #c4dfff;
+  transform: translateY(1px);
+}
+
+.menu-option button:disabled {
+  background-color: #e3eaf5;
+  color: #7a9cc6;
+  cursor: not-allowed;
+  box-shadow: none;
+}

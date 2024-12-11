@@ -1,0 +1,10 @@
+.account-detail-page-action {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 20px;
+}
+
+.account-detail-page-table {
+  padding: 20px;
+}

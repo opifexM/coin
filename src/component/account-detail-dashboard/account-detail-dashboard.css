@@ -1,0 +1,67 @@
+.account-detail-component {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  padding: 20px 30px;
+}
+
+.account-detail-control-top,
+.account-detail-control-bottom {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.account-detail-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.account-detail-number {
+  font-size: 18px;
+  color: #333;
+  margin: 0;
+}
+
+.account-detail-button {
+  margin-left: auto;
+  background-color: #116ACC;
+  color: #ffffff;
+  border: none;
+  padding: 16px 20px 16px 58px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  transition: background-color 0.3s ease;
+  background-image: url('./image/arrow.svg');
+  background-size: 24px;
+  background-repeat: no-repeat;
+  background-position: left 16px center;
+}
+
+.account-detail-button:hover {
+  background-color: #0d5aad;
+}
+
+.account-detail-button:active {
+  background-color: #094a8c;
+}
+
+.account-detail-balance {
+  display: flex;
+  gap: 40px;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0 0 0 auto;
+}
+
+.account-detail-balance span {
+  display: block;
+  font-size: 16px;
+  color: #000;
+  font-weight: normal;
+}
